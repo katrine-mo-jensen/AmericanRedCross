@@ -1,4 +1,57 @@
-
 $infor-font: "Arial,Helvetica sans-serif";
-$voice-font:"Georgie,time,serif";
-$digital-size:'6px';
+$voice-font: "Georgie,time,serif";
+
+//information
+@mixin info-font-main {
+  font-size: 4rem;
+  //font-size: min(4rem);
+  color: $pms-cool-grey;
+  font-family: $infor-font;
+}
+@mixin info-font-black {
+  font-size: 4rem;
+  color: $black;
+  font-family: $infor-font;
+}
+@mixin info-font-red {
+  font-size: 4rem;
+  color: $red-cross-red;
+  font-family: $infor-font;
+}
+@mixin info-font-white {
+  font-size: 4rem;
+  color: $white;
+  font-family: $infor-font;
+}
+@mixin info-font-blue {
+  font-size: 4rem;
+  color: $midnight-blue;
+  font-family: $infor-font;
+}
+
+//Voice
+@mixin voice-font-main {
+  font-size: 4rem;
+  color: $pms-cool-grey;
+  font-family: $voice-font;
+}
+@mixin voice-font-black {
+  font-size: 4rem;
+  color: $black;
+  font-family: $voice-font;
+}
+@mixin voice-font-red {
+  font-size: 4rem;
+  color: $red-cross-red;
+  font-family: $voice-font;
+}
+@mixin voice-font-white {
+  font-size: 4rem;
+  color: $white;
+  font-family: $voice-font;
+}
+@mixin voice-font-blue {
+  font-size: 4rem;
+  color: $midnight-blue;
+  font-family: $voice-font;
+}
