@@ -1,12 +1,13 @@
-// @use "./partials/neutral.colors" as neutral;
+@use "./partials/neutral" as *;
+
 /*------------------ HEADER --------------*/
-@mixin theme($theme: $med-grey) {
-    background: $theme;
-  }
+// @mixin theme($theme: $med-grey) {
+//     background: $theme;
+//   }
   
-  .header {
-    @include theme;
-  }
+.header {
+    background-color: neutral.$med-grey;
+}
 
 /*--------------- SIGNIN-FORM ---------------------*/
 .mysignin {
