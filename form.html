@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="#" defer></script>
+</head>
+<body>
+    <header>
+        There is a header here
+    </header>
+    <main>
+        <section class="breadcrumb-main">
+            Home link here
+            Big title here
+
+            SoMe icons here
+
+        </section>
+    <section>
+        <form action="Thanks.html" novalidate onsubmit="return validate(this);" class="mysignin">
+            <fieldset id="signup">
+              <legend>Sign In with Your Red Cross ID</legend>
+    
+                <label for="adresse">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Ex: Adress@mail.com" required />
+    
+                <label for="password">Password:</label><area shape="" coords="" href="" alt="">
+                <input type="text" id="password" name="password" placeholder="#####" required />
+                <input type="submit" value="SIGN IN" />
+
+
+          </fieldset>
+          </form>
+    </section>
+
+    <section>
+    <!-- HER STARTER FORMEN (BEMÆRK: "novalidate" SKAL FJERNES ;0) -->
+    <form action="Thanks.html" novalidate onsubmit="return validate(this);" class="myform">
+        <fieldset id="signup">
+          <legend>Create a Red Cross ID</legend>
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required />
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required />
+            
+            <label for="countries">Choose a country:</label>
+            <select id="country" name="countrylist" form="countryform">
+            <option value="usa">United States</option>
+            </select>
+
+            <label for="pcode">Postal Code:</label>
+            <input type="text" id="pcode" name="pcode" required />
+
+            <label for="adresse">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Ex: Adress@mail.com" required />
+
+            <label for="password">Password:</label><area shape="" coords="" href="" alt="">
+            <input type="text" id="password" name="password" placeholder="#####" required />
+
+            <label for="confirmpassword">Repeat Password:</label>
+            <input type="text" id="confirmPassword" name="confirmPassword" placeholder="#####" required />
+            <input type="submit" value="CREATE MY RED CROSS ID" />
+      </fieldset>
+      </form>
+    </section> 
+</main>
+</body>
+</html>
