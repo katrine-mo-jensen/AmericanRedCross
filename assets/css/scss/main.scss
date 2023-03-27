@@ -1,3 +1,5 @@
-@use "./partials/primary.colors";
-@use "./partials/neutral.colors";
-@use "./partials/secondary.colors";
+@use "./partials/primary" as *;
+@use "./partials/neutral" as *;
+@use "./partials/secondary" as *;
+@use "./partials/section" as *;
+@use "./partials/fonts" as *;
