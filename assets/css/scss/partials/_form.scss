@@ -2,13 +2,14 @@
 // @use "./partials/neutral" as *;
 // @use "./partials/secondary" as *;
 /*------------------ HEADER --------------*/
-@mixin theme($theme: $med-grey) {
-    background: $theme;
-  }
+// @mixin theme($theme: $med-grey) {
+//     background: $theme;
+//   }
   
-.header {
-    background-color: $theme;
-}
+// .header {
+//     background-color: $theme;
+// }
+    
 
 /*--------------- SIGNIN-FORM ---------------------*/
 .mysignin {
