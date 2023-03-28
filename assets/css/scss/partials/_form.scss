@@ -1,5 +1,6 @@
-@use "./partials/neutral" as *;
-
+// @use "./partials/primary" as *;
+// @use "./partials/neutral" as *;
+// @use "./partials/secondary" as *;
 /*------------------ HEADER --------------*/
 @mixin theme($theme: $med-grey) {
     background: $theme;
