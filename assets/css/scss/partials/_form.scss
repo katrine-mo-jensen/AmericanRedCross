@@ -2,13 +2,11 @@
 // @use "./partials/neutral" as *;
 // @use "./partials/secondary" as *;
 /*------------------ HEADER --------------*/
-// @mixin theme($theme: $med-grey) {
-//     background: $theme;
-//   }
+
   
-// .header {
-//     background-color: $theme;
-// }
+.header {
+    background: rgb(186, 41, 41);
+}
     
 
 /*--------------- SIGNIN-FORM ---------------------*/
@@ -27,7 +25,7 @@
   }
   .mysignin legend{
     font-size: 1.5rem;
-    font-family: Mountains of Christmas;
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--gold);
     font-weight: bold;
   }
@@ -73,7 +71,7 @@
   }
   .myform legend{
     font-size: 1.5rem;
-    font-family: Mountains of Christmas;
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--gold);
     font-weight: bold;
   }
